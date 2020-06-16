@@ -1,0 +1,25 @@
+{
+  "name": "restcode",
+  "version": "1.0.0",
+  "description": "REST API for Student Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json"
+  ],
+  "author": "Devashish Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "N": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "os": "^0.1.1"
+  }
+}
